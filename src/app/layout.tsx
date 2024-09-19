@@ -34,7 +34,9 @@ export default function RootLayout({
           <Header/>
           {children}
         </main>
-      
+        <footer className="container py-8 text-gray-500 text-center">
+          Job Board &copy; 2024 - All rights reserved
+        </footer>
       </body>
     </html>
   )

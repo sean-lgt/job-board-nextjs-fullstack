@@ -1,10 +1,13 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faHeart} from "@fortawesome/free-solid-svg-icons";
+
 export default function JobRow() {
   return (
     <>
       <div className="bg-white p-4 rounded-lg shadow-sm relative">
-        {/* <div className="absolute cursor-pointer top-4 right-4">
-          <img className="size-12" src="https://www.pngfind.com/pngs/m/122-1227017_spotify-icon-png-circle-spotify-logo-png-transparent.png"/>
-        </div> */}
+        <div className="absolute cursor-pointer top-4 right-4">
+          <FontAwesomeIcon className="size-4 text-gray-300" icon={faHeart} />
+        </div>
         <div className="flex grow gap-4">
           <div className="content-center w-12 basis-12 shrink-0">
             <img className="size-12" src="https://www.pngfind.com/pngs/m/122-1227017_spotify-icon-png-circle-spotify-logo-png-transparent.png"/>

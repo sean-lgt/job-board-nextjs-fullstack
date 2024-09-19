@@ -8,13 +8,15 @@ const config: Config = {
   ],
   theme: {
     container: {
+      screens: {
+        'lg': '768px',
+        'xl': '768px',
+        '2xl': '768px',
+      },
+      center: true,
       padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl':'6rem'
-      }
+        DEFAULT: '1.5rem',
+      },
     },
     extend: {
       colors: {
